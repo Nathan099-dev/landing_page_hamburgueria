@@ -63,3 +63,49 @@ header{
 
 }
 
+section.home{
+    display: flex;
+    padding: 0 4%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section.home .home-text h4{
+    color: var(--red);
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    margin: 0 1.5rem;
+}
+
+section.home .home-text h1{
+    color: var(--dark);
+    margin: 0 1.5rem;
+    font-weight: bold;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+section.home .home-text p{
+    margin: 0 2rem;
+}
+
+button{
+    background-color: var(--red);
+    color: #ccc;
+    border: none;
+    padding: 15px 45px;
+    margin-left: 7%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #fc4c35;
+    transition: .6s;
+}
+
+section.home img{
+    max-width: 400px;
+}
+
