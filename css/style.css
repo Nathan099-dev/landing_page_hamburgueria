@@ -51,6 +51,10 @@ header{
     margin-right: 18px;
 }
 
+.navigation .menu-links ul li a{
+    color: var(--dark);
+}
+
 .navigation .menu-links ul li a:hover{
     color: var(--red);
 }
