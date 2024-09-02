@@ -90,6 +90,10 @@ section.home .home-text p{
     margin: 0 2rem;
 }
 
+section.home img{
+    max-width: 400px;
+}
+
 button{
     background-color: var(--red);
     color: #ccc;
@@ -105,7 +109,4 @@ button:hover{
     transition: .6s;
 }
 
-section.home img{
-    max-width: 400px;
-}
 
