@@ -9,6 +9,14 @@
     text-decoration: none;
 }
 
+.container{
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 :root{
     --white:#fff;
     --red:#d63a25;
@@ -37,6 +45,7 @@ header{
 .navigation .logo h1{
     color: var(--red);
     font-size: 2rem;
+    margin-left: 30px;
 }
 
 
@@ -92,6 +101,7 @@ section.home .home-text p{
 
 section.home img{
     max-width: 400px;
+    margin-top: 20px;
 }
 
 button{
