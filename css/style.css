@@ -26,6 +26,7 @@
 body{
     background-color: var(--white);
     color: var(--dark);
+    overflow-x: hidden;
 }
 
 header{
